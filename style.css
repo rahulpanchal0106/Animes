@@ -7,6 +7,473 @@
 p, b{
     padding: 6px;
     word-wrap:break-word;
+}@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@200&family=Nanum+Pen+Script&display=swap');
+*{
+    font-family:'Anek Devanagari';
+    
+
+}
+p, b{
+    padding: 6px;
+    word-wrap:break-word;
+}
+html{
+    background-color: rgba(84, 156, 211, 0.323);
+    background-size:100%;
+    background-repeat:no-repeat;
+    background-position: center;
+
+
+}
+.container{
+    padding: 0vw;
+    margin: 0px;
+    max-width: 607px;
+    
+    align-items: center;
+
+}
+
+/* Luffy */
+.a{
+    width: 90%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    height: 125px;
+
+    background-size:100vw;
+    background-image: url("https://drive.google.com/uc?export=view&id=15Y1IsHvkHxuW83vjFJII1X-y149Bq2EN") ;
+    background-position: 00px -130px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 20px black;
+    color: rgb(0, 0, 0);
+    z-index: 0;
+   transition: box-shadow 0.6s ease, transform 0.6s ease;
+
+}
+.a:hover{
+    box-shadow: -10px 10px 10px 0px rgba(0, 0, 0, 0.263);
+    transform: translateX(10px) translateY(-10px);
+}
+.container> .a > .ease{
+    width: 100%;
+    position: static;
+    height: 130px;
+    top:53px;
+    border-right-style: solid;
+    border-right-color: rgb(255, 80, 65);
+    border-radius: 3px;
+    background-color: rgba(245, 245, 245, 0.451);
+    border-right-width:5px ;
+    
+   
+
+    
+
+}
+
+
+.a img{
+    float:right;
+    position:sticky;
+    display: flex;
+    margin: 10px;
+    border-radius: 5px;
+    height: 120px;
+    margin-top: 5px;
+    width: 120px;
+    z-index: 4;
+   
+}
+p{
+    padding: 4px;
+}
+@media screen and (width>608px) {
+    .a{
+        background-size: 100%;
+        background-position:center;
+        
+    }
+}
+@media screen and (width<608px) {
+    .a{
+        background-size: 100%;
+        background-position:center ;
+        
+    }
+}
+/* Zoro */
+.b{
+    width: 90%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    height: 125px;
+   
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 20px black;
+    color: rgb(0, 0, 0);
+    z-index: 5;
+    background-image: url("https://drive.google.com/uc?export=view&id=14qx753EgHyxGpj6iYLs3CuIk5Wsfxxfb") ;
+    background-size:90vw;
+    background-position: 00px -140px;
+    transition: box-shadow 0.6s ease, transform 0.6s ease;
+
+}
+.b:hover{
+    box-shadow: -10px 10px 10px 0px rgba(0, 0, 0, 0.263);
+    transform: translateX(10px) translateY(-10px);
+}
+.container> .b > .ease{
+    width: 100%;
+    position: static;
+    height: 130px;
+    top:53px;
+    border-left-style: solid;
+    border-radius: 3px;
+    background-color: rgba(245, 245, 245, 0.218);
+    border-left-width:5px ;
+    z-index: 1;
+    border-left-color: mediumaquamarine;
+    
+
+}
+
+
+.b img{
+    float:left;
+    position:sticky;
+    display: flex;
+    margin: 10px;
+    border-radius: 5px;
+    height: 120px;
+    margin-top: 5px;
+    width: 120px;
+    z-index: 4;
+   
+}
+
+@media screen and (width>608px) {
+    .b{
+        background-size: 100%;
+        background-position:center;
+        
+    }
+}
+@media screen and (width<608px) {
+    .b{
+        background-size: 100%;
+        background-position:center ;
+        
+    }
+}
+/* Sanji */
+.c{
+    width: 90%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    height: 125px;
+    background-image: url("https://drive.google.com/uc?export=view&id=15eMoeltuknjWDwYICWh-jkbY1iYA4zoc") ;
+    background-size:90vw;
+    background-position: 00px -140px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 20px black;
+    color: rgb(0, 0, 0);
+    z-index: 5;
+    transition: box-shadow 0.6s ease, transform 0.6s ease;
+
+}
+.c:hover{
+    box-shadow: -10px 10px 10px 0px rgba(0, 0, 0, 0.263);
+    transform: translateX(10px) translateY(-10px);
+}
+.container> .c > .ease{
+    width: 100%;
+    position: static;
+    height: 130px;
+    top:53px;
+    border-left-style: solid;
+    border-radius: 3px;
+    background-color: rgba(245, 245, 245, 0.451);
+    border-left-width:5px ;
+    z-index: 1;
+    border-left-color:gold;
+    
+
+}
+
+
+.c img{
+    float:left;
+    position:sticky;
+    display: flex;
+    margin: 10px;
+    border-radius: 5px;
+    height: 120px;
+    margin-top: 5px;
+    width: 120px;
+    z-index: 4;
+   
+}
+p{
+    padding: 4px;
+}
+@media screen and (width>608px) {
+    .c{
+        background-size: 100%;
+        background-position:bottom;
+        
+    }
+}
+@media screen and (width<608px) {
+    .c{
+        background-size: 100%;
+        background-position:center ;
+        
+    }
+}
+/*Usopp*/
+.d{
+    width: 90%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    height: 125px;
+
+    background-size:100vw;
+    background-image: url("https://drive.google.com/uc?export=view&id=14lUOc-HCBJdbNXwshS0oJ_KQqEgQYxEY") ;
+
+    background-position: 00px -130px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 20px black;
+    color: rgb(0, 0, 0);
+    z-index: 10;
+   transition: box-shadow 0.6s ease, transform 0.6s ease;
+
+}
+.d:hover{
+    box-shadow: -10px 10px 10px 0px rgba(0, 0, 0, 0.263);
+    transform: translateX(10px) translateY(-10px);
+}
+.container> .d > .ease{
+    width: 100%;
+    position: static;
+    height: 130px;
+    top:53px;
+    border-right-style: solid;
+    border-right-color: rgb(81, 227, 45);
+    border-radius: 3px;
+    background-color: rgba(245, 245, 245, 0.451);
+    border-right-width:5px ;
+    z-index: 1;
+   
+    display:table-caption;
+    
+
+}
+
+
+.d img{
+    float:right;
+    position:sticky;
+    display: flex;
+    margin: 10px;
+    border-radius: 5px;
+    height: 120px;
+    margin-top: 5px;
+    width: 120px;
+    z-index: 1;
+   
+}
+p{
+    position:relative;
+    overflow:hidden;
+    padding: 4px;
+}
+@media screen and (width>608px) {
+    .d{
+        background-size: 100%;
+        background-position:center;
+        
+    }
+}
+@media screen and (width<608px) {
+    .d{
+        background-size: 100%;
+        background-position:center ;
+        
+    }
+}
+/* Nami */
+.e{
+    width: 90%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    height: 125px;
+    background-image: url("https://drive.google.com/uc?export=view&id=15Wn2wFExxnzZB47bqgXD80ReAgQPlltr") ;
+    background-size:90vw;
+    background-position: 00px -140px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 20px black;
+    color: rgb(0, 0, 0);
+    z-index: 5;
+    transition: box-shadow 0.6s ease, transform 0.6s ease;
+
+}
+.e:hover{
+    box-shadow: -10px 10px 10px 0px rgba(0, 0, 0, 0.263);
+    transform: translateX(10px) translateY(-10px);
+}
+.container> .e > .ease{
+    width: 100%;
+    position: static;
+    height: 130px;
+    top:53px;
+    border-left-style: solid;
+    border-radius: 3px;
+    background-color: rgba(245, 245, 245, 0.451);
+    border-left-width:5px ;
+    z-index: 1;
+    border-left-color:rgb(255, 132, 0);
+    
+
+}
+
+
+.e img{
+    float:left;
+    position:sticky;
+    display: flex;
+    margin: 10px;
+    border-radius: 5px;
+    height: 120px;
+    margin-top: 5px;
+    width: 120px;
+    z-index: 4;
+   
+}
+p{
+    padding: 4px;
+}
+@media screen and (width>608px) {
+    .e{
+        background-size: 100%;
+        background-position:center;
+        
+    }
+}
+@media screen and (width<608px) {
+    .e{
+        background-size: 100%;
+        background-position:center ;
+        
+    }
+}
+/* Nico Robin */
+.f{
+    width: 90%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    height: 125px;
+    background-image: url("https://drive.google.com/uc?export=view&id=15XuweiYe2vWDdybeRAd-7j0rw88UB75w") ;
+    background-size:90vw;
+    background-position: 00px -140px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 20px black;
+    color: rgb(0, 0, 0);
+    z-index: 5;
+    transition: box-shadow 0.6s ease, transform 0.6s ease;
+
+}
+.f:hover{
+    box-shadow: -10px 10px 10px 0px rgba(0, 0, 0, 0.263);
+    transform: translateX(10px) translateY(-10px);
+}
+.container> .f > .ease{
+    width: 100%;
+    position: static;
+    height: 130px;
+    top:53px;
+  border-left-style: none;
+    border-right-style: solid;
+    border-radius: 3px;
+    background-color: rgba(245, 245, 245, 0.451);
+    border-right-width:5px ;
+    z-index: 1;
+    border-right-color:rgb(255, 132, 0);
+    
+
+}
+
+.f img{
+    float:left;
+    position:sticky;
+    display: flex;
+    margin: 10px;
+    border-radius: 5px;
+    height: 120px;
+    margin-top: 5px;
+    width: 120px;
+  
+    z-index: 4;
+   
+}
+p{
+    padding: 4px;
+}
+@media screen and (width>608px) {
+    .f{
+        background-size: 100%;
+        background-position:center;
+        
+    }
+}
+@media screen and (width<608px) {
+    .f{
+        background-size: 100%;
+        background-position:center ;
+        
+    }
+}
+/* poster */
+.poster, .container{
+    display:inline-block;
+  
+}
+.poster{
+    position: static;
+    align-items: center;
+    margin-top: -900px;
+}
+.poster a img{
+    width: 600px;
+    margin: 10px;
+    position: relative;
+    top: -200px;
+    border-radius: 4px;
+    box-shadow: 20px black ;
+    height: 450px;
+    transition: box-shadow 0.6s ease, transform 0.6s ease;
+}
+.poster>a>img:hover{
+    box-shadow: -10px 10px 10px 0px rgba(0, 0, 0, 0.263);
+    transform: translateX(10px) translateY(-10px);
 }
 html{
     background-color: rgba(84, 156, 211, 0.323);
@@ -401,12 +868,14 @@ p{
     position: static;
     height: 130px;
     top:53px;
-    border-left-style: solid;
+    border-right-style: solid;
+    border-right-color:darkorchid;
     border-radius: 3px;
     background-color: rgba(245, 245, 245, 0.451);
-    border-left-width:5px ;
+    border-right-width:5px ;
     z-index: 1;
-    border-left-color:rgb(255, 132, 0);
+   
+    display:table-caption;
     
 
 }

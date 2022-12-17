@@ -25,6 +25,10 @@ html{
 
 
 }
+body{
+    display:flex;
+    justify-content: flex-start;
+}
 .container{
     padding: 0vw;
     margin: 0px;
@@ -847,7 +851,7 @@ p{
     align-content: center;
     align-items: center;
     height: 125px;
-    background-image: url("https://drive.google.com/uc?export=view&id=15Wn2wFExxnzZB47bqgXD80ReAgQPlltr") ;
+    background-image: url("https://pic-bstarstatic.akamaized.net/ugc/a51050cf8dc624991432b84232885632.jpeg@720w_405h_1e_1c_1f.webp") ;
     background-size:90vw;
     background-position: 00px -140px;
     margin: 20px;
@@ -869,7 +873,7 @@ p{
     height: 130px;
     top:53px;
     border-right-style: solid;
-    border-right-color:darkorchid;
+    border-right-color:rgb(254, 0, 203);
     border-radius: 3px;
     background-color: rgba(245, 245, 245, 0.451);
     border-right-width:5px ;
@@ -882,7 +886,7 @@ p{
 
 
 .f img{
-    float:left;
+    float:right;
     position:sticky;
     display: flex;
     margin: 10px;
@@ -910,6 +914,208 @@ p{
         
     }
 }
+.g{
+    width: 90%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    height: 125px;
+    background-image: url("https://api.duniagames.co.id/api/content/upload/file/3908993481595583473.jpg") ;
+    background-size:90vw;
+    background-position: 00px -140px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 20px black;
+    color: rgb(0, 0, 0);
+    z-index: 5;
+    transition: box-shadow 0.6s ease, transform 0.6s ease;
+
+}
+.g:hover{
+    box-shadow: -10px 10px 10px 0px rgba(0, 0, 0, 0.263);
+    transform: translateX(10px) translateY(-10px);
+}
+.container> .g > .ease{
+    width: 100%;
+    position: static;
+    height: 130px;
+    top:53px;
+    border-left-style: solid;
+    border-radius: 3px;
+    background-color: rgba(245, 245, 245, 0.451);
+    border-left-width:5px ;
+    z-index: 1;
+    border-left-color:rgb(122, 79, 230);
+    
+    
+}
+
+
+.g img{
+    float:left;
+    position:sticky;
+    display: flex;
+    margin: 10px;
+    border-radius: 5px;
+    height: 120px;
+    margin-top: 5px;
+    width: 120px;
+    z-index: 4;
+    
+}
+p{
+    padding: 4px;
+}
+@media screen and (width>608px) {
+    .g{
+        background-size: 100%;
+        background-position:bottom;
+        
+    }
+}
+@media screen and (width<608px) {
+    .g{
+        background-size: 100%;
+        background-position:center ;
+        
+    }
+}
+
+.h{
+    width: 90%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    height: 125px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL4jkBD8O7BoplbP3elf5pEW6wzzWaa53KVg&usqp=CAU") ;
+    background-size:90vw;
+    background-position: 00px -140px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 20px black;
+    color: rgb(0, 0, 0);
+    z-index: 5;
+    transition: box-shadow 0.6s ease, transform 0.6s ease;
+    
+}
+.h:hover{
+    box-shadow: -10px 10px 10px 0px rgba(0, 0, 0, 0.263);
+    transform: translateX(10px) translateY(-10px);
+}
+.container> .h > .ease{
+    width: 100%;
+    position: static;
+    height: 130px;
+    top:53px;
+    border-right-style: solid;
+    border-radius: 3px;
+    background-color: rgba(245, 245, 245, 0.451);
+    border-right-width:5px ;
+    z-index: 1;
+    border-right-color:rgb(23, 216, 230);
+    
+    
+}
+
+
+.h img{
+    float:right;
+    position:sticky;
+    display: flex;
+    margin: 10px;
+    border-radius: 5px;
+    height: 120px;
+    margin-top: 5px;
+    width: 120px;
+    z-index: 4;
+    
+}
+p{
+    padding: 4px;
+}
+@media screen and (width>608px) {
+    .h{
+        background-size: 100%;
+        background-position:bottom;
+        
+    }
+}
+@media screen and (width<608px) {
+    .h{
+        background-size: 100%;
+        background-position:center ;
+        
+    }
+}
+.i{
+    width: 90%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    height: 125px;
+    background-image: url("https://i.pinimg.com/originals/40/7d/46/407d46f0b9c5006764f568a7b2c8bdb0.jpg") ;
+    background-size:90vw;
+    background-position: 00px -140px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 20px black;
+    color: rgb(0, 0, 0);
+    z-index: 5;
+    transition: box-shadow 0.6s ease, transform 0.6s ease;
+    
+}
+.i:hover{
+    box-shadow: -10px 10px 10px 0px rgba(0, 0, 0, 0.263);
+    transform: translateX(10px) translateY(-10px);
+}
+.container> .i > .ease{
+    width: 100%;
+    position: static;
+    height: 130px;
+    top:53px;
+    border-left-style: solid;
+    border-radius: 3px;
+    background-color: rgba(245, 245, 245, 0.451);
+    border-left-width:5px ;
+    z-index: 1;
+    border-left-color:rgb(34, 231, 100);
+    
+    
+}
+
+
+.i img{
+    float:left;
+    position:sticky;
+    display: flex;
+    margin: 10px;
+    border-radius: 5px;
+    height: 120px;
+    margin-top: 5px;
+    width: 120px;
+    z-index: 4;
+    
+}
+p{
+    padding: 4px;
+}
+@media screen and (width>608px) {
+    .i{
+        background-size: 100%;
+        background-position:bottom;
+        
+    }
+}
+@media screen and (width<608px) {
+    .i{
+        background-size: 100%;
+        background-position:center ;
+        
+    }
+}
 /* poster */
 .poster, .container{
     display:inline-block;
@@ -918,7 +1124,7 @@ p{
 .poster{
     position: static;
     align-items: center;
-    margin-top: -900px;
+    margin-top: 40vh;
 }
 .poster a img{
     width: 600px;
